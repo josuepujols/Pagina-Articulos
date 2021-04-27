@@ -1,0 +1,16 @@
+body {
+    background: url('../img/cielo.jpg');
+    background-attachment: fixed;
+}
+
+#logo {
+    background-color: #1F87C4;
+}
+
+.hover:hover {
+    background-color: #1F87C4;
+}
+
+.boton {
+    background-color: #1F87C4;
+}

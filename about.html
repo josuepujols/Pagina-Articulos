@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con JavaScript</title>
+  
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link id="theme" rel="stylesheet" href="css/green.css">
+
+    <!--Scripts-->
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--Mis Scripts-->
+    <script src="js/cambiar-tema.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/loggin.js"></script>
+    <script src="js/acordeon.js"></script>
+
+    <!--JQuery UI-->
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    <script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--Cambiador de temas-->
+    <div id="botones-tema">
+
+        <div id="green">
+            
+        </div>
+
+        <div id="red">
+
+        </div>
+
+        <div id="blue">
+
+        </div>
+
+    </div>
+
+    <!--Seccion Global-->
+    <section id="general_container">
+
+        <!--Inicio de la cabecera-->
+        <header id="encabezado">
+
+            <div id="logo">
+                <h1>Proyecto js</h1>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <nav>
+                <ul id="menu">
+                    <li class="hover"><a href="index.html">Inicio</a></li>
+                    <li class="hover"><a href="reloj.html">Reloj</a></li>
+                    <li class="hover"><a href="about.html">Sobre mi</a></li>
+                    <li class="hover"><a href="contacto.html">Contacto</a></li>
+                    <li><button class="boton-toggle"><img id="imagen" src="img/icons8_add_32px_1.png" alt="Agregar articulo"></button></li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+
+        <!--Formulario para ingresar articulo-->
+
+        <div id="form-container">
+            <form>
+                <h2>Redactar un articulo</h2>
+                <input type="text" id="titulo" placeholder="Ingrese el titulo del articulo">
+                <textarea id="contenido-articulo" autocapitalize="none" maxlength="600" placeholder="Ingrese el articulo" name="textarea" rows="6" cols="50"></textarea>
+                
+                <div id="flex">
+                    <button class="agregar" id="primero">Agregar</button> <br/>
+                    <button class="agregar" id="segundo">Cerrar</button>
+                </div>
+            </form>
+        </div>
+
+
+
+        <!--Contenido principal-->
+        <section id="content">
+
+            <div id="box-about">
+                <h2>Sobre mi</h2>
+                <div id="acordeon">
+                    <h3>¿Quienes somos?</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed turpis a erat
+                            fermentum euismod.
+                        </p>
+                    </div>
+
+                    <h3>¿Que hacemos?</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed turpis a erat
+                            fermentum euismod.
+                        </p>
+                    </div>
+
+                    <h3>¿Como lo hacemos?</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed turpis a erat
+                            fermentum euismod.
+                        </p>
+                    </div>
+
+                    <h3>¿Por que nosotros?</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed turpis a erat
+                            fermentum euismod.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <aside id="barra-lateral">
+                <div id="about">
+                    <h4><span>¿Quien Soy?</span></h4>
+                    <img src="img/caracol.jpg" alt="Imagen de usuario">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed turpis a erat
+                        fermentum euismod.
+                    </p>
+                </div>
+
+                <div id="loggin">
+                    <h4><span>Identificate</span></h4>
+
+                    <form id="formulario">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre">
+
+                        <label for="email">Correo:</label>
+                        <input type="email" name="email" id="correo">
+
+                        <label for="password">Contraseña:</label>
+                        <input type="password" name="password" id="password">
+
+                        <input type="submit" value="Entrar" id="boton-entrar"> 
+                    </form>
+                </div>
+
+            </aside>
+
+            <div class="clearfix"></div>
+
+        </section>
+
+    </section>
+    <!--Inicio del footer-->
+    <footer>
+
+        Curso de JavaScript - Josue Pujols CopyRight &copy;2020.
+
+        <a href="#" class="subir">Ir a arriba</a>
+
+    </footer>
+
+</body>
+
+</html>

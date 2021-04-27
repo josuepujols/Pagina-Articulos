@@ -1,0 +1,17 @@
+
+body {
+    background: url('../img/hojas.jpg');
+    background-attachment: fixed;
+}
+
+#logo {
+    background-color: #235E3D;
+}
+
+.hover:hover {
+    background-color: #235E3D;
+}
+
+.boton {
+    background-color: #235E3D;
+}

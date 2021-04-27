@@ -1,0 +1,16 @@
+body {
+    background: url('../img/rojo.jpg');
+    background-attachment: fixed;
+}
+
+#logo {
+    background-color: #CA3413;
+}
+
+.hover:hover {
+    background-color: #CA3413;
+}
+
+.boton {
+    background-color: #CA3413;
+}
